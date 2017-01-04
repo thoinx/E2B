@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <RelativeLayout style="@style/TitleBar"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imv_product_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/back" />
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:id="@+id/txt_product_detail_title"
+            style="@style/TextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/collection_title" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#70000000"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:id="@+id/txt_dialog_choose_attribute_title"
+                android:textSize="15sp"
+                android:textColor="@color/bgTabBottom"
+                android:layout_width="match_parent"
+                foo:customFont="fonts/Lato-Regular"
+                android:background="@android:color/white"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="New Text" />
+            <View
+                android:id="@+id/view_item_detail_attribute"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line" />
+            <ListView
+                android:id="@+id/lv_dialog_choose_attribute"
+                android:layout_width="match_parent"
+                android:divider="@color/line"
+                android:scrollbars="none"
+                android:dividerHeight="0.5dp"
+                android:background="@android:color/white"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

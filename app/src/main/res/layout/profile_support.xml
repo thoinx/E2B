@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:text="@string/call_support"
+        android:textColor="#CCA658" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:text="@string/email_support"
+        android:textColor="#CCA658" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="2"
+        android:background="#ffffff">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:text="@string/terms_conditions"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvPrivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:text="@string/privacy_policy"
+        android:textColor="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#171616</color>
+    <color name="colorPrimaryDark">#171616</color>
+    <color name="colorAccent">#f6f6f6</color>
+    <color name="bgTabBottom">#171616</color>
+    <color name="textDetail">#777</color>
+    <color name="yellow">#CCA659</color>
+    <color name="line">#EEEEEE</color>
+    <color name="white">#EEEEEE</color>
+    <color name="black">#171616</color>
+    <color name="random">#39ee26</color>
+    <color name="gray">#696969</color>
+    <color name="btn_sign_in">#1A1A1A</color>
+    <color name="btn_facebook">#3B5998</color>
+</resources>

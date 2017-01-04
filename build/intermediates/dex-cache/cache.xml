@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\36334a0b77180a470d7d10ee0adf3b20a0299786\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e45cc2a34f155b3841814ec920244e51c177aa4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\4302f0c5d9b77c9f96ac454f7230413c1e30dcd5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_231c5e4b42015b43807e5df6ddd44e82adf2cbe4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\d5f609a8969c73b4ab25d12cf19742a857d78696\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85f940055cb6114ec548121e9075d15646de97d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\b6940222026bf36c17a469652d799ca5f20b4628\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14889e022db94047ceadff1cf5e7984139a4eb8e">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a309b68c46e7ec997c48a4e3712047e618103461\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_164c3cb486a791e560c9e5994a92704cb9fffc90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\1ad4a8fc0ed6a381dc5905f0e5bbb9052b95bb66\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a9dd38215a5a4d3366ee7be343ef5900cf0a87d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.gradle\caches\modules-2\files-2.1\in.srain.cube\grid-view-with-header-footer\1.0.12\6b45a6bca9304d0ae6d26d01a2ea2f62bfe46a27\grid-view-with-header-footer-1.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b45a6bca9304d0ae6d26d01a2ea2f62bfe46a27">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\grid-view-with-header-footer-1.0.12_adeaee2816ad32fab98a0aa0b899eb6f6a05b123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\startup\code\E2BGIT\E2B\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b43fc3c2086492e219a89bf7d9862d8e651c3824">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c703afbcb9e07575b554eddd9a5eb034128b58b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_5b0e76934b28ed6cf3930d0b75a87ec654a8a965\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\.android\build-cache\d5f609a8969c73b4ab25d12cf19742a857d78696\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_4659148f15a7326b2804eaed9c774e1591c86327\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\thoin_000\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_e99f8023b9d0bf85144e9a6de22ab92a8b6db141\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\startup\code\E2BGIT\E2B\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fe1699c614d3c945c9473ee19f0548391cb45fb0">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ac1f260163ff570ba30ff5ed80c039a0a82c0813\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\setup\android\new2.3\android-studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\startup\code\E2BGIT\E2B\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_a17c6183347547156547b6d4bf744b80e6b5c5d9\classes.dex" />
+    </item>
+
+</items>

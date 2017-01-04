@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">E2B</string>
+    <string name="collection_title">GRAND VAPOR</string>
+    <string name="product_review_title">Leave a Review</string>
+    <string name="name">NAME</string>
+    <string name="rating">RATING</string>
+    <string name="review_title">REVIEW TITLE</string>
+    <string name="review">REVIEW</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="submit">SUBMIT</string>
+    <string name="shop_title">Shop All</string>
+    <string name="shop_des">view recently added</string>
+    <string name="packages_title">Packages</string>
+    <string name="packages_des">discover set ups</string>
+    <string name="sale_title">Sale</string>
+    <string name="sale_des">up to 50%</string>
+    <string name="made_coils_title">Pre-Made Coils</string>
+    <string name="made_coils_des">avoid building</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="related_items">RELATED ITEMS</string>
+    <string name="qty">QTY</string>
+    <string name="leave_a_review">LEAVE A REVIEW</string>
+    <string name="choose">Choose</string>
+    <string name="search_results">SEARCH RESULTS</string>
+    <string name="search_hint">SEARCH GRAND VAPOR</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="call_support">Call Support</string>
+    <string name="email_support">Email Support</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="login_description">simple check out, in app \n tracking, manager your orders</string>
+    <string name="forgot_pass">forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="grand_vapor">GRAND VAPOR</string>
+    <string name="add_to_cart_success">Add to cart success!</string>
+
+</resources>

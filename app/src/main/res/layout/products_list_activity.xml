@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        style="@style/TitleBar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imv_product_list_back" />
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:text="@string/collection_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            foo:customFont="fonts/Lato-Regular"
+            style="@style/TextTitle"
+            android:id="@+id/txt_product_list_title" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <in.srain.cube.views.GridViewWithHeaderAndFooter
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:numColumns="2"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:scrollbars="none"
+            android:dividerHeight="0dp"
+            android:layout_weight="1"
+            android:id="@+id/gv_product_list" />
+
+        <LinearLayout
+            android:id="@+id/llayout_product_list_tab"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/product_btn_collections"
+                style="@style/HomeTab">
+
+                <ImageView
+                    style="@style/HomeTabImage"
+                    android:src="@drawable/tab_feed" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/product_btn_productions"
+                style="@style/HomeTab">
+
+                <ImageView
+                    style="@style/HomeTabImage"
+                    android:src="@drawable/tab_categories" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/product_btn_carts"
+                style="@style/HomeTab">
+
+                <ImageView
+                    style="@style/HomeTabImage"
+                    android:src="@drawable/tab_carts" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/product_btn_profiles"
+                style="@style/HomeTab">
+
+                <ImageView
+                    style="@style/HomeTabImage"
+                    android:src="@drawable/tab_profiles" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

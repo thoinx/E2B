@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/view_item_products_list_left"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:background="@color/bgTabBottom"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imv_item_collection_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:visibility="invisible"
+                    android:src="@drawable/products_loading"
+                    android:adjustViewBounds="true" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/imv_item_products" />
+            </FrameLayout>
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginTop="5dp"
+                style="@style/TextDescription"
+                foo:customFont="fonts/Lato-Bold"
+                android:textColor="@color/bgTabBottom"
+                android:id="@+id/txt_item_products_list_name" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.uncommontrade.e2b.customview.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:singleLine="true"
+                    android:maxEms="15"
+                    android:ellipsize="end"
+                    foo:customFont="fonts/Lato-Light"
+                    style="@style/TextDetail"
+                    android:layout_weight="1"
+                    android:id="@+id/txt_item_products_list_des" />
+
+                <com.uncommontrade.e2b.customview.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    style="@style/TextDetail"
+                    foo:customFont="fonts/Lato-Light"
+                    android:gravity="right"
+                    android:id="@+id/txt_item_products_list_price" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/view_item_products_list_right"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

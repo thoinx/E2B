@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:id="@+id/txt_item_list_review_title"
+            android:layout_width="match_parent"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="@string/reviews"
+            android:textColor="@color/bgTabBottom" />
+
+        <RatingBar
+            android:id="@+id/rat_item_list_review"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1" />
+
+
+    </LinearLayout>
+
+    <com.uncommontrade.e2b.customview.TextViewPlus
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        foo:customFont="fonts/Lato-Regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/txt_item_list_review_des" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_alignParentRight="true"
+            android:id="@+id/txt_item_list_review_name" />
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_item_list_review_name"
+            android:id="@+id/txt_item_list_review_time" />
+    </RelativeLayout>
+</LinearLayout>

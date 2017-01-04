@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/bgTabBottom"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_item_collection_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:src="@drawable/product_list_loading"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/devicesmall"
+            android:id="@+id/categories_image_tab" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextTitle"
+                foo:customFont="fonts/Lato-Regular"
+                android:text="@string/sale_title"
+                android:id="@+id/txt_item_collection_title" />
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextDescription"
+                foo:customFont="fonts/Lato-Regular"
+                android:text="@string/sale_des"
+                android:id="@+id/txt_item_collection_description"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/categories_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

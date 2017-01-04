@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ViewPagerIndicator-2.4.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b6940222026bf36c17a469652d799ca5f20b4628/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b6940222026bf36c17a469652d799ca5f20b4628/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.JakeWharton/ViewPagerIndicator/2.4.1/10b5915b5f2eb2fe91ba6df68f99a3ded4e98178/ViewPagerIndicator-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

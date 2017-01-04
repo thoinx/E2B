@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/TitleBar">
+
+        <ImageView
+            android:id="@+id/imv_product_review_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/back" />
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            style="@style/TextTitle"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/product_review_title" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            foo:customFont="fonts/Lato-Regular"
+            android:textColor="@color/bgTabBottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/rating" />
+
+        <RatingBar
+            android:id="@+id/rat_product_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:id="@+id/txt_product_review_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bgTabBottom"
+            android:layout_marginRight="10dp"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/edt_product_review_name"
+            android:layout_width="match_parent"
+            android:textCursorDrawable="@null"
+            android:singleLine="true"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:textColor="@color/bgTabBottom"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:id="@+id/txt_product_review_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bgTabBottom"
+            foo:customFont="fonts/Lato-Regular"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/review_title" />
+
+        <EditText
+            android:id="@+id/edt_product_review_title"
+            android:layout_width="match_parent"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/bgTabBottom"
+            android:singleLine="true"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <com.uncommontrade.e2b.customview.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            foo:customFont="fonts/Lato-Regular"
+            android:textColor="@color/bgTabBottom"
+            android:text="@string/review" />
+
+        <EditText
+            android:id="@+id/edt_product_review_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:imeOptions="actionDone"
+            android:textColor="@color/bgTabBottom"
+            android:gravity="top"
+            android:background="@android:color/transparent"
+            android:lines="10"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llayout_product_review_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line" />
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                foo:customFont="fonts/Lato-Regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/bgTabBottom"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

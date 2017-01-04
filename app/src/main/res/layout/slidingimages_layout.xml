@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgTabBottom"
+        android:src="@drawable/products_loading"
+        android:adjustViewBounds="true"
+        android:visibility="invisible"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imv_sliding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgTabBottom"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+</FrameLayout>

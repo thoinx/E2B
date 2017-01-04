@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgTabBottom"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/TitleBar">
+
+        <ImageView
+            android:id="@+id/imv_login_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_clear_white_36dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:id="@+id/txt_login_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/grand_vapor"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                foo:customFont="fonts/Lato-Bold" />
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_login_activity_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/login_description"
+                android:textColor="@color/gray"
+                foo:customFont="fonts/Lato-Regular" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+            <EditText
+                android:id="@+id/edt_login_activity_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Email"
+                android:lines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textCursorDrawable="@null" />
+
+            <EditText
+                android:id="@+id/edt_login_activity_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_login_activity_email"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textCursorDrawable="@null" />
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:id="@+id/txt_login_activity_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/sign_in"
+                android:layout_above="@+id/txt_login_activity_forgot"
+                android:textColor="@android:color/white"
+                foo:customFont="fonts/Lato-Regular" />
+
+            <com.uncommontrade.e2b.customview.TextViewPlus
+                android:id="@+id/txt_login_activity_forgot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="@string/forgot_pass"
+                android:textColor="@color/gray"
+                foo:customFont="fonts/Lato-Light" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up using my email"
+                android:textColor="@android:color/white"
+                android:layout_above="@+id/btn_login_activity_facebook"
+                android:background="@color/btn_sign_in"
+                android:id="@+id/btn_login_activity_email" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up with Facebook"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:background="@color/btn_facebook"
+                android:id="@+id/btn_login_activity_facebook" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
